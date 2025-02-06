@@ -26,6 +26,18 @@ ul {
 	font-size: 1.25em;
 }
 
+nav {
+	color: aqua;
+	line-height: 1.5em;
+	display: block;
+}
+
+nav li {
+	display: inline;
+	padding: 60px;
+	list-style-type: none;
+}
+
 .certList {
 	font-size: 1.75em;
 	font-family: serif;

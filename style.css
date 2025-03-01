@@ -9,6 +9,11 @@ header {
 	font-size: 5em;
 }
 
+label {
+	color: blue;
+	font-weight: bold;
+}
+
 footer {
 	font-weight: bold;
 }
@@ -53,6 +58,15 @@ th {
 caption {
 	caption-side: top;
 	font-weight: bold;
+}
+
+#toppings, #size {
+	border: none;
+}
+
+#notes {
+	width: 200px;
+	height: 150px;
 }
 
 .certList {

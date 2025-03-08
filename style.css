@@ -1,0 +1,84 @@
+body {
+	background-color: #3d3d3d;
+	font-family: monospace;
+}
+
+img {
+	float: right;
+}
+
+header {
+	color: #663399;
+	text-align: center;
+	font-size: 5em;
+}
+
+label {
+	color: blue;
+	font-weight: bold;
+}
+
+footer {
+	font-weight: bold;
+}
+
+h3 {
+	color: #663399;
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+ul {
+	font-style: italic;
+	font-size: 1.25em;
+}
+
+nav {
+	color: aqua;
+	line-height: 1.5em;
+	display: block;
+}
+
+nav li {
+	display: inline;
+	padding: 60px;
+	list-style-type: none;
+}
+
+tr, td {
+	border: solid 2px black;
+	padding: 2px;
+	width: 200px;
+}
+
+th {
+	text-align: left;
+	width: 200px;
+}
+
+caption {
+	caption-side: top;
+	font-weight: bold;
+}
+
+#toppings, #size {
+	border: none;
+}
+
+#notes {
+	width: 200px;
+	height: 150px;
+}
+
+.certList {
+	font-size: 1.75em;
+	font-family: serif;
+}
+
+.emphasis {
+	font-style: italic;
+	font-weight: bold;
+}

@@ -3,6 +3,10 @@ body {
 	font-family: monospace;
 }
 
+img {
+	float: right;
+}
+
 header {
 	color: #663399;
 	text-align: center;

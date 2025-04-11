@@ -10,6 +10,9 @@
 
 	<link rel="stylesheet" href="style.css">
 	<!--- The reason for chosen colors is this matches a site I already have --->
+
+	<!--- jquery UI stylesheet --->
+	<link rel="stylesheet" href="jquery-ui-1.14.1.custom/jquery-ui.min.css">
 </head>
 
 <!--- This starts the visible elements on the web page --->
@@ -22,7 +25,7 @@
 		<li><a href="index.html" title="Home">Home</a></li>
 		<li><a href="page2.html" title="Page2">Page2</a></li>
 		<li><a href="table-demo.html" title="Table Demo">Table Demo</a></li>
-		<li><a href="pizza_order.html" title="Form Demo">Pizza Order Form Demo</a></li>
+		<li><a href="pizza-order.html" title="Form Demo">Pizza Order Form Demo</a></li>
 	</ul>
 </nav>
 
@@ -34,37 +37,44 @@
 	</p>
 
 	<h3>Career</h3>
-	<img src="generic-hacker.jpeg" alt="Generic hacker, with a hoodie." height=310 width=442>
-	<p>
-		My main skills lie in <strong>cybersecurity</strong>, mostly in networking. I have a few certifications that show this. I have obtained:
-	</p>
 
-	<div class="certList">
-		<ul>
-			<li>CompTIA Network+</li>
-			<li>CompTIA Security+</li>
-		</ul>
-	</div>
+	<p>My main skills lie in <strong>cybersecurity</strong>, mostly in networking.
+		I have a few certifications that show this.</p>
+	<p>On top of those, I am also studying for a few certifications that I
+		will obtain over the coming months.</p>
 
-	<p>
-		On top of those, I am also studying for a few certifications that I will obtain over the coming months. These include, but <span class="emphasis">are not limited to:</span>
-	</p>
+	<div id="accordion">
+		<h4>Certifications Obtained</h4>
+		<div class="certList" id="obtained">
+			<ul>
+				<li title="Completed October 2022">CompTIA Network+</li>
+				<li title="Completed September 2022">CompTIA Security+</li>
+			</ul>
+		</div>
 
-	<div class="certList">
-		<ul>
-			<li>CompTIA Linux+</li>
-			<li>Microsoft Azure Fundamentals (AZ-900)</li>
-			<li>Splunk Core Certified User</li>
-		</ul>
+		<h4>Certifications In Progress</h4>
+		<div class="certList" id="in-progress">
+			<ul>
+				<li title="Currently in progress. Expected completion May 2025">CompTIA Linux+</li>
+				<li title="Currently in progress. Expected completion TBD">Microsoft Azure Fundamentals (AZ-900)</li>
+				<li title="Currently in progress. Expected completion TBD">Splunk Core Certified User</li>
+			</ul>
+		</div>
 	</div>
 
 	<h3>Socials</h3>
-
+	<img src="generic-hacker.jpeg" alt="Generic hacker, with a hoodie." height=310 width=442>
 	<p>
 		You can reach me on LinkedIn.
 	</p>
 </main>
 
 <footer>Copyleft Ryan Foust. Do whatever lol.</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="jquery-ui-1.14.1.custom/jquery-ui.min.js"></script>
+
+<script src="script.js"></script>
+
 </body>
 </html>
